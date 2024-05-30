@@ -1,0 +1,334 @@
+*{ 
+margin:0;
+font-family: Arial;
+border: border-box;
+}
+.navbar
+{
+    height:60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 53px;
+    width: 113px;
+}
+.logo{
+    background-image: url("amalogo.jpg");
+    background-size: cover;
+    height: 53px;
+    width: 113px;
+    
+}
+
+.border:hover{
+    border:1px solid wheat;
+}
+/**box2**/
+.add-first{
+    color:#cccccc;
+    font-size: 0.84rem;
+    margin-left: 1rem;
+}
+.add-sec{
+    font-size: 1rem;
+    border: none;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    border:1px solid black;
+
+}
+/**box3**/
+.nav-search {
+    display: flex ;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 650px;
+    height: 41px;
+    border-radius: 3px;
+   
+}
+.search-select {
+    background-color: #f3f3f3;
+    width: 50ox;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon {
+     width: 44px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+.nav-search:hover {
+    border:2px orange solid
+
+}
+/**box4**/
+
+
+.nav-flag{
+    width:18px ;
+    background-color: #0f1111;
+    color: #ffffff;
+    font-size: 1rem;
+    display: flex;
+}
+ 
+/**box5**/
+.nav-line{
+    .border:hover{
+        border:1px solid wheat;
+}
+}
+span {
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+.line-2 {
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #0f1111;
+    font-weight: 800;    
+}
+/* box6 */
+.nav-rerturn {
+    font-size: 0.8rem;
+    color:#ffffff;
+    .border:hover{
+        border:1px solid wheat;
+}
+
+}
+.nav-order {
+    font-size: 13px;
+    color: #ffffff;
+   font-weight: 800;
+
+}
+/* box7 */
+.cart{
+    display: flex;
+    .border:hover{
+        border:1px solid wheat;
+}
+}
+.nav-cart {
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 800;
+}
+/* pannel */
+.pannel {
+    background-color: #222f3d; 
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.pannel-all {
+    height: 37px;
+     font-weight: 600;
+     .border:hover{
+        border:1px solid wheat;
+}
+}
+.pannel-ops p {
+    display:inline-flex;
+    justify-content: center;
+    margin: 15px;
+    .border:hover{
+        border:1px solid wheat;
+}
+}
+.pannel-ops {
+    width: 65%;
+    font-size: 13.5px;
+    font-weight: 300;
+    text-align: left;
+}
+.pannel-deals {
+    font-size: 14px;
+    .border:hover{
+        border:1px solid wheat;
+}
+}
+/* hero-section */
+.hero-sect {
+    background-image: url("navahero.jpg");
+    height: 255px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg {
+    height:40px;
+    width: 1055px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+/* shop-sec */
+.shop-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: plum;
+}
+.box{ 
+    height: 250px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+   
+}
+.box-img1{
+    height:200px;
+     background-size: contain;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-img2 {
+    height:200px;
+     background-size: cover;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+.box-img3 {
+    height:200px;
+     background-size: contain;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+.box-img4 {
+    height:200px;
+     background-size: contain;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+.box-img5 {
+    height:200px;
+     background-size: contain;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+.box-img6 {
+    height:200px;
+     background-size: contain;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+.box-img7 {
+    height:200px;
+     background-size: contain;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+.box-img8 {
+    height:200px;
+     background-size: contain;
+    margin-top: 12px;
+    margin-bottom: 10px;
+
+}
+/* footer */
+footer {
+    margin-top: 18px;
+}
+
+.foot-pannel1 {
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    }
+ .foot-pannel2 {
+    background-color: #222f3d;
+    color: #dddddd;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ ul {
+    margin-top: 25px;
+    text-align: center;
+}   
+ ul a{
+    display: block;
+    justify-content: space-evenly;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #dddddd;
+ }
+ .foot-pannel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  .logo{
+    background-image: url("amalogo.jpg");
+    background-size: cover;
+    height: 53px;
+    width: 113px;  
+ }
+ .foot-pannel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+}
+.pages {
+    font-size: 13px;
+    text-align: center;
+    padding: 25px;
+}
+.copyright {
+    padding: 5px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #0f1111;
+    color: white;
+}
